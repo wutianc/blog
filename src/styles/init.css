@@ -1,0 +1,136 @@
+/* 基础样式定义 */
+body,
+html,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+img {
+  border: none;
+  font-size: 0;
+}
+a {
+  color: #71777d;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  min-width: 960px;
+  color: #666;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-family: "YouYuan", "Microsoft YaHei";
+}
+/*icon定义*/
+/* iconfont */
+@font-face {
+  font-family: 'iconfont';
+  src: url('/static/common/plugins/iconfont/iconfont.eot');
+  src: url('/static/common/plugins/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('/static/common/plugins/iconfont/iconfont.woff') format('woff'), url('/static/common/plugins/iconfont/iconfont.ttf') format('truetype'), url('/static/common/plugins/iconfont/iconfont.svg#iconfont') format('svg');
+
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont";
+  display: inline-block;
+}
+@media screen and (max-width: 375px) {
+  .iconfont {
+    font-size: 24px;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 375px) {
+  .iconfont {
+    font-size: 26px;
+    font-style: normal;
+  }
+}
+.clearfix {
+  *zoom: 1;
+  /*overflow:hidden*/
+}
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-weight: normal;
+}
+input {
+  border: none;
+  outline: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.text_c {
+  text-align: center;
+}
+.text_l {
+  text-align: left;
+}
+.wrap_960 {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrap_960_ {
+  width: 960px;
+  margin: 0 auto;
+}
+.wrap_780 {
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.box_bor {
+  box-sizing: border-box;
+}
+.none {
+  display: none !important;
+}
+.input_num_n input[type=number] {
+  -moz-appearance: textfield;
+}
+.input_num_n input[type=number]::-webkit-inner-spin-button,
+.input_num_n input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
