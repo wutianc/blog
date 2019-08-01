@@ -1,10 +1,14 @@
 <template>
-  <div class="">
+  <div class="Home">
     <div class="h_header">
       <ul>
         <li v-for="(item, index) in nav" :key="index">{{item}}</li>
       </ul>
     </div>
+    <div class="h_content">
+      <div></div>
+    </div>
+    <div class="h_footer"></div>
   </div>   
 </template>
 
@@ -29,6 +33,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.Home {
+  width: 100%;
+  height: 100%;
+}
 .h_header {
   width: 100%;
   height: 65px;
@@ -49,6 +57,8 @@ export default {
       }
     }
   }
+}
+.h_content {
 }
 </style>
 
